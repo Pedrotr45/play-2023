@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+
+ 
+header.barra-navgation {
+    width: 100%;
+    height: 85vh;
+    background-image: url("imagem/body2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+}
+
+.cabeçalho-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #9999;
+}
+
+.logo h2 {
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.menu {
+    padding: 20px 0;
+}
+
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.menu i {
+    color: #fff;
+    padding: 0 10px;
+}
+
+section.banner {
+    width: 100%;
+    height: 80px;
+    padding: 0 2%;
+}
+
+.text-banner {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text-banner h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 140px;
+    font-weight: normal;
+}
+
+.text-banner h2 {
+    color: #fff;
+    font-size: 52px;
+    font-weight: normal;
+}
+
+.text-banner p {
+    color: #fff;
+    margin-left: 80px;
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.text-banner button {
+    padding: 10px 35px;
+    background-color: dodgerblue;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-top:30px;
+    margin-left: 230px;
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+.text-banner button:hover {
+    opacity: 1;
+}
+
+.icon {
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 47%;
+}
+
+section.sessao-2 {
+    width: 100%;
+    padding: 20px 2%;
+    
+}
+.sessao-principal {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+.text-sessao h2 {
+    position: relative;
+    left: 33%;
+    color: #666;
+    font-size: 38px;
+    bottom: 10%;
+    font-weight: normal;
+}
+
+.social-icons {
+    display: flex;
+}
+.midia-social {
+    display: inline;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.midia-social i {
+    font-size: 50px;
+    padding-left: 70px;
+    color: aqua;
+}
+
+.midia-social h2 {
+    font-size: 25px;
+    color: orange;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.descriçao p {
+    padding: 20px 0;
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: gray;
+    line-height: 30px;
+    font-weight: normal;
+   
+
+}
+
+section.sobre {
+    width: 100%;
+    height: 500px;
+    padding: 0 2%;
+    background-color: #ccc;
+}
+
+.sobre-1 {
+    display: flex;
+    position: relative;
+    top: 20%;
+    
+}
+
+
+.text-sobre {
+    margin-left: 60px;
+}
+
+.text-sobre h2 {
+    font-weight: normal;
+    font-size: 40px;
+    color: #25bc;
+}
+
+.text-sobre p {
+    color: #777;
+    font-weight: normal;
+    padding-top: 58px;
+    font-size: 25px;
+}
+
+.text-sobre img {
+    padding-bottom: 30px;
+    width: 520px;
+}
+
+
+
